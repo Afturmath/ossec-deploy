@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -d /var/lib/ossec ]; then
+if [ -d /var/ossec ]; then
 	echo "OSSEC may already be installed. Exiting."
 	exit 1
 fi
